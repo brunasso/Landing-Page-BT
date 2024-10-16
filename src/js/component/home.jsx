@@ -9,12 +9,17 @@ const Home = () => {
 	return (
 		<>
 			<Navbar/>
-			<Jumbotron/>
-			<div className="row justify-content-around">
-				<Card/>
-				<Card/>
-				<Card/>
-				<Card/>				
+			<div className="d-flex align-items-center flex-column min-vh-100">
+				<div className="w-75 justify-content-center">
+					<Jumbotron/>
+					<div className="row justify-content-evenly">
+						<Card/>
+						<Card/>
+						<Card/>
+						<Card/>				
+					</div>
+				</div>
+				
 			</div>
 			<Footer/>
 		</>
